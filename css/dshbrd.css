@@ -1,0 +1,148 @@
+.content{
+    position: absolute;
+    top:80px;
+    left: 220px;
+    width:1680px;
+    height: auto;
+	border-radius:10px;
+}
+.title{ 
+    position:relative;
+    top:0%;
+    text-align: center;
+    background:rgba(196, 196, 196, 0.6);
+    border-radius:15px;
+    padding: 10px;
+    font-weight: bold;
+}
+.content .inner-main{
+    margin-left:5px;
+    width: 1260px;
+    padding-top: 5px;
+}
+
+.content .inner-main .box1,
+.content .inner-main .box2,
+.content .inner-main .box3,
+.content .inner-main .box4,
+.content .inner-main .box5{
+    margin: 5px;
+    background:rgba(196, 196, 196, 0.6);
+    border-radius: 10px;
+}
+.content .inner-main .box1,
+.content .inner-main .box3{
+    position: relative;
+    width: 625px;
+    height: 300px;
+}
+.content .inner-main .box2{
+    position: absolute;
+    top:5px;
+    left:640px;
+    width: 630px;
+    height: 300px;
+   
+}
+.content .inner-main .box4{
+    position: absolute;
+    top:310px;
+    left:640px;
+    width: 630px;
+    height: 300px;
+}
+.content .inner-main .box5{
+    position: relative;
+    width: 1260px;
+    height: 400px;
+}
+.content .main-side{
+    position: absolute;
+    left: 1285px;
+    top:10px;
+    width: 385px;
+}
+.content  .main-side .inner-event{
+    width: 385px;
+    height: auto;
+    background: rgba(196, 196, 196, 0.5);
+    border-radius: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.content .main-side .inner-notif{
+    position: relative;
+    width: 385px;
+    height: 200px;
+    background: rgba(196, 196, 196, 0.199);
+    border-radius: 15px;
+    padding-bottom: 20px;
+}
+.content .main-side .inner-event .group{
+    margin: 10px;
+}
+.content .main-side .inner-event .group span{
+   margin-left: 15px;
+}
+.content .main-side .inner-event input[type="text"]{
+    padding:5px 3px;
+	box-sizing:border-box;
+	width:70px;
+    height: 40px;
+	outline:none;
+	transition:all 0.2s ease;
+	border:none;
+	border-radius: 15px;
+	background: rgba(196, 196, 196, 0.7);
+	font-family: Poppins;
+}
+.content .main-side .inner-event .group :placeholder-shown{
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1850px) {
+    .body{
+        width: 95%;
+        height: 95%;
+    }
+    .content{
+        width: 88%;
+    }
+    .content .inner-main{
+        width: 75%;
+    }
+    .content .inner-main .box1,
+    .content .inner-main .box3{
+     position: relative;
+     width: 50%;
+    height: 300px;
+}
+.content .inner-main .box2{
+    position: absolute;
+    top:5px;
+    left:38%;
+    width:37.5%;
+    height: 300px;
+   
+}
+.content .inner-main .box4{
+    position: absolute;
+    top:310px;
+    left:38%;
+    width:37.5%;
+    height: 300px;
+}
+.content .inner-main .box5{
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+.content .main-side{
+    position: absolute;
+    left:76.5%;
+    top:10px;
+    width:21%;
+}
+}
