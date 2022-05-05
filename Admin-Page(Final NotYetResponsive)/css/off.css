@@ -1,0 +1,10 @@
+.content{
+    position: absolute;
+    top:80px;
+    left: 220px;
+    width:1680px;
+    height: 1000px;
+	border-radius:10px;
+    background-color: whitesmoke;
+    padding-bottom: 30px;
+}
