@@ -103,46 +103,11 @@
 }
 
 @media screen and (max-width: 1850px) {
-    .body{
-        width: 95%;
-        height: 95%;
-    }
-    .content{
-        width: 88%;
-    }
-    .content .inner-main{
-        width: 75%;
-    }
+
+
     .content .inner-main .box1,
     .content .inner-main .box3{
-     position: relative;
-     width: 50%;
+    width: 325px;
     height: 300px;
-}
-.content .inner-main .box2{
-    position: absolute;
-    top:5px;
-    left:38%;
-    width:37.5%;
-    height: 300px;
-   
-}
-.content .inner-main .box4{
-    position: absolute;
-    top:310px;
-    left:38%;
-    width:37.5%;
-    height: 300px;
-}
-.content .inner-main .box5{
-    position: relative;
-    width: 100%;
-    height: 400px;
-}
-.content .main-side{
-    position: absolute;
-    left:76.5%;
-    top:10px;
-    width:21%;
-}
+    margin-left: -100px;
 }
